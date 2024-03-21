@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <exec output="/tmp/maven5599330887206933890cli" failOnError="true" executable="/bin/sh">
+      <arg value="-c" />
+      <arg value="/tmp/.sentry-cli17348373093282595682.exe --log-level=debug --header sentry-trace:4d13a2de8be34e578118503177f743f1-a2aea280b4024cfa-1 --header baggage:sentry-environment=JVM,sentry-public_key=000e5dea9770b4537055f8a6d28c021e,sentry-release=0.0.7,sentry-sample_rate=1,sentry-sampled=true,sentry-trace_id=4d13a2de8be34e578118503177f743f1,sentry-transaction=maven%20build debug-files bundle-jvm --output=/home/bharadwaj/Documents/workspace-spring-tool-suite-4-4.20.0.RELEASE/ecom/target/sentry/source-bundle --debug-id=6e025ee7-e52a-4dc6-88b6-30bb7ec1628b --org=self-tmc --project=java-spring-boot /home/bharadwaj/Documents/workspace-spring-tool-suite-4-4.20.0.RELEASE/ecom/src/main/java" />
+    </exec>
+  </target>
+</project>
